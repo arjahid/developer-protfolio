@@ -1,8 +1,13 @@
 /* nav releted style */
+.header{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0 200px;
 }
 .nav-tittle{
     color: black;
@@ -37,4 +42,14 @@ nav a{
     padding: 15px 35px;
 
 
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .profile-pic{
+    width: 300px;
+    height: 400px;
 }
