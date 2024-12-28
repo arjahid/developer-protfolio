@@ -114,3 +114,55 @@ main{
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.6);
     
 }
+.skill:hover{
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 3px 3px green;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, transparent, rgb(62, 14, 83), transparent);
+    text-align: center;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.footer .social-icons a {
+    color:  #007bff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+    box-shadow: 0 0 50px 10px #007bff;
+}
+
+.footer::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgb(241, 234, 234), transparent);
+}
