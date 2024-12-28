@@ -2,12 +2,14 @@
 .header{
     background-color: #f5f5f5;
     padding: 20px 0;
+    
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 200px;
+    margin:0 100px;
+    
 }
 .nav-tittle{
     color: black;
@@ -44,12 +46,31 @@ nav a{
 
 }
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 30px 100px;
     display: flex;
     align-items: center;
     
 }
 .banner .profile-pic{
-    width: 300px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
+}
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 70px 0;
+    border: 2px solid;
+}
+.section-tittle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ff0000;
+}
+.section-description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a0101;
 }
